@@ -1,0 +1,78 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    padding-top: 8px;
+    max-width: 350px;
+    min-width: 200px;
+    height: 100vh;
+    color: #000;
+    border-right: 1px solid cyan;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.profile{
+    color: white;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.profile-pic{
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.profile-info{
+    padding-left: 10px;
+    color: #000;
+}
+.profile-name{
+    font-size: 18px;
+}
+.profile-number{
+    color: grey;
+    font-size: 14px;
+}
+.profile-admission{
+    color: grey;
+    font-size: 12px;
+}
+
+
+.menu{
+    border: 1px solid green;
+}
+.menu-list{
+}
+.menu-item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 45px;
+    color: black;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    height: 30px;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+.footer-text{
+    color: gray;
+}
+.footer-link{
+    padding-right: 8px;
+    color: gray;
+}

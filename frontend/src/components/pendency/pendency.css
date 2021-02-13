@@ -1,0 +1,54 @@
+.pendency-item{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.pendency-check{
+    padding-left: 10px;
+    border: 1px solid greenyellow;
+    width: 25px;
+}
+.pendency-name{
+    padding-left: 10px;
+    border: 1px solid greenyellow;
+    width: 300px;
+}
+.pendency-coordinator{
+    padding-left: 10px;
+    border: 1px solid greenyellow;
+    width: 300px;
+}
+.pendency-date{
+    padding-left: 10px;
+    border: 1px solid greenyellow;
+    width: 100px;
+}
+.pendency-hour{
+    padding-left: 10px;
+    border: 1px solid greenyellow;
+    width: 100px;
+}
+.pendency-aproval{
+    padding-left: 10px;
+    border: 1px solid greenyellow;
+    width: 100px;
+    justify-content: space-between;
+}
+.pendency-positive{
+    width: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: skewX(10deg);
+    position: relative;
+    background-color: green;
+}
+.pendency-negative{
+    width: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: skewX(10deg);
+    background-color: red;
+}
